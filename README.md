@@ -15,9 +15,8 @@ A multimodal AI assistant that combines:
 > Built on FastAPI, WebSockets, and Python
 
 ⚙️ Setup
-> 1️) Clone the repo
+> 1️) Clone the repo by using 
 > git clone https://github.com/<your-username>/video-rag-chatbot.git
-> cd video-rag-chatbot
 
 > 2️) Create and activate a virtual environment
 python -m venv venv
