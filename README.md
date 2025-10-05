@@ -47,10 +47,13 @@ for the interactive Swagger UI.
 
 📸 Face Recognition Workflow
 Each frame from the webcam is:
-Sent via WebSocket → /video-stream
-Processed by detection.py using ArcFace
-Matched to stored user embeddings in data/users/
-Response: { "user": "name", "active": true }
+>Sent via WebSocket → /video-stream
+
+>Processed by detection.py using ArcFace
+
+>Matched to stored user embeddings in data/users/
+
+>Response: { "user": "name", "active": true }
 
 Embeddings
 EMBED_MODEL=all-MiniLM-L6-v2
