@@ -1,0 +1,27 @@
+# --- Core ---
+fastapi==0.115.0
+uvicorn==0.30.6
+requests==2.32.3
+python-dotenv==1.0.1
+pydantic==2.9.2
+
+# --- AI & Embeddings ---
+sentence-transformers==3.2.0
+torch==2.4.0
+transformers==4.44.0
+
+# --- Pinecone (Vector DB) ---
+pinecone==7.3.0
+
+# --- Vision / Face Recognition ---
+opencv-python==4.10.0.84
+insightface==0.7.3
+onnxruntime==1.19.2
+
+# --- Optional: Speech ---
+gTTS==2.5.1
+SpeechRecognition==3.10.4
+pyaudio==0.2.14
+
+# --- Utilities ---
+numpy==1.26.4

@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Data and large files
+data/
+output.mp3
+temp_tts.mp3
+*.mp3
+*.wav
+*.zip
+*.tar
+*.gz
+*.bin
+*.pt
+*.h5
+*.chk
+
+# Model checkpoints
+models/
+checkpoints/
+
+# Frontend build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.next/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment and config
+.env
