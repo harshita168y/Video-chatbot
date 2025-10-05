@@ -16,8 +16,8 @@ A multimodal AI assistant that combines:
 
 ⚙️ Setup
 > 1️) Clone the repo
-git clone https://github.com/<your-username>/video-rag-chatbot.git
-cd video-rag-chatbot
+> git clone https://github.com/<your-username>/video-rag-chatbot.git
+> cd video-rag-chatbot
 
 > 2️) Create and activate a virtual environment
 python -m venv venv
