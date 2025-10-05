@@ -3,28 +3,31 @@ An AI-powered Video + RAG Chatbot that recognizes faces, remembers past conversa
 
 🎥 Video + RAG Chatbot (with Face Recognition & Memory)
 A multimodal AI assistant that combines:
+
 > Real-time face recognition (via InsightFace)
 
 > Natural conversation through local LLMs (Ollama or OpenAI)
 
 > Long-term memory using Pinecone + embeddings
+
 > Optional speech support (STT + TTS)
+
 > Built on FastAPI, WebSockets, and Python
 
 ⚙️ Setup
-1️) Clone the repo
+> 1️) Clone the repo
 git clone https://github.com/<your-username>/video-rag-chatbot.git
 cd video-rag-chatbot
 
-2️) Create and activate a virtual environment
+> 2️) Create and activate a virtual environment
 python -m venv venv
 source venv/bin/activate   # (Linux/Mac)
 venv\Scripts\activate      # (Windows)
 
-3️) Install dependencies
+> 3️) Install dependencies
 pip install -r requirements.txt
 
-4️) Set up your .env
+> 4️) Set up your .env
 Create a .env file in the root directory:
 Pinecone:
 PINECONE_API_KEY=pcsk_
