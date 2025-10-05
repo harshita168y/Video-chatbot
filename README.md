@@ -4,7 +4,9 @@ An AI-powered Video + RAG Chatbot that recognizes faces, remembers past conversa
 🎥 Video + RAG Chatbot (with Face Recognition & Memory)
 A multimodal AI assistant that combines:
 > Real-time face recognition (via InsightFace)
+
 > Natural conversation through local LLMs (Ollama or OpenAI)
+
 > Long-term memory using Pinecone + embeddings
 > Optional speech support (STT + TTS)
 > Built on FastAPI, WebSockets, and Python
